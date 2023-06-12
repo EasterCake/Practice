@@ -12,7 +12,8 @@ def derivative():
           output_field.insert(0, differential)
         except Exception:
             output_field.delete(0, END)
-            output_field.insert(0, 'Поставте знак * убрав = ')
+            output_field.insert(0, '')
+
 
 def definite_integral():
               integral()
